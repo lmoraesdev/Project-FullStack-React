@@ -1,14 +1,23 @@
 import logo from '../../imgs/logo.svg';
-import './style.css';
+import styled from 'styled-components';
+
+const NavContainer = styled.nav`
+  display: flex;
+  font-size: 30px;
+`;
+
+const LogoImagens = styled.img`
+  margin-right: 10px;
+`;
 
 function Logo() {
   return (
-    <nav className="logo">
-      <img src={logo} alt="Imagem do logo" className="logo-img"></img>
+    <NavContainer>
+      <LogoImagens src={logo} alt="Imagem do logo" />
       <p>
         <strong>Alura</strong>Books
       </p>
-    </nav>
+    </NavContainer>
   );
 }
 
