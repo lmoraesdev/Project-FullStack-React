@@ -3,12 +3,12 @@ import './style.css';
 
 function Logo() {
   return (
-    <div className="logo">
+    <nav className="logo">
       <img src={logo} alt="Imagem do logo" className="logo-img"></img>
       <p>
         <strong>Alura</strong>Books
       </p>
-    </div>
+    </nav>
   );
 }
 
