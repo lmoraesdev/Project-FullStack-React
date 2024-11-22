@@ -1,5 +1,5 @@
 const express = require('express');
-const rotaLivro = require('./rotas/livro');
+const rotaLivro = require('./src/rotas/livro');
 
 const app = express();
 
