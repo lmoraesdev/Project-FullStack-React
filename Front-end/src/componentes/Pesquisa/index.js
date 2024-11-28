@@ -54,8 +54,8 @@ function Pesquisa() {
   }, []);
 
   async function fetchLivros() {
-    const livrosDaApi = await getLivros();
-    setLivros(livrosDaApi);
+    const livrosDaAPI = await getLivros();
+    setLivros(livrosDaAPI);
   }
 
   return (
